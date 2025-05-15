@@ -58,6 +58,40 @@
             background-color: #1ebc59;
         }
 
+        .places-gallery {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .place-card {
+            width: 280px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .place-card:hover {
+            transform: scale(1.05);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-card h3 {
+            padding: 15px;
+            margin: 0;
+            font-size: 18px;
+            background: #f8f8f8;
+        }
+
         footer {
             background: #333;
             color: white;
@@ -79,15 +113,40 @@
         <h2>Plan Your Dream Vacation</h2>
     </div>
 </div>
+<!-- New Section: Travel Places in Hyderabad -->
+    <div class="places-gallery">
+        <div class="place-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/800px-Charminar_Hyderabad_1.jpg">
+            <h3>Charminar</h3>
+        </div>
+        <div class="place-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Golconda_Fort_005.jpg/1200px-Golconda_Fort_005.jpg">
+            <h3>Golconda Fort</h3>
+        </div>
+        <div class="place-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Buddha_statue_11102016.jpg/500px-Buddha_statue_11102016.jpg">
+            <h3>Hussain Sagar Lake</h3>
+        </div>
+        <div class="place-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ramoji_Film_City.jpg/500px-Ramoji_Film_City.jpg">
+            <h3>Ramoji Film City</h3>
+        </div>
+        <div class="place-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Birla_Mandir_in_Hyderabad%2C_2015.JPG/500px-Birla_Mandir_in_Hyderabad%2C_2015.JPG">
+            <h3>Birla Mandir</h3>
+        </div>
+    </div>
 
 <div class="container">
     <h2>Contact Us for Bookings & Packages</h2>
     <p>Let us help you explore the world. We offer curated travel packages, custom itineraries, and 24/7 support.</p>
     
     <!-- WhatsApp Link -->
-    <a class="whatsapp-button" href="https://wa.me/+917970888726?text=Hello!%20I'm%20interested%20in%20your%20travel%20packages." target="_blank">
+    <a class="whatsapp-button" href="https://wa.me/+917483139731?text=Hello!%20I'm%20interested%20in%20your%20travel%20packages." target="_blank">
         📱 Chat with Us on WhatsApp
     </a>
+
+    
 </div>
 
 <footer>
